@@ -4,6 +4,8 @@
 .app .header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 64px;
+  margin-top: 2%;
 }
 
 .card-container {
@@ -23,6 +25,10 @@
 .card-container .card .text {
   font-size: 32px;
   text-align: left;
+}
+
+.card:nth-child(10) {
+  width: 20vw;
 }
 
 /*# sourceMappingURL=App.css.map */
