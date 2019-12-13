@@ -6,7 +6,7 @@
         color: #443e3e;
         text-shadow: 1px 1px 5px #fff;
         font-size: 64px;
-        margin-top: 2%;
+        margin: 2%;
     }
 }
 
@@ -41,5 +41,10 @@
 
 .card:nth-child(10) {
     width: 20vw;
+}
+
+.form-group {
+    width: 20%;
+    margin: auto;
 }
   
