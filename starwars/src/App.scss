@@ -20,6 +20,13 @@
         border-radius: 10px;
         margin: 2%;
         background: rgba(216.0, 216.0, 216.0, 0.75);
+        @media(max-width: 1250px) {
+            width: 40%;
+        }
+        @media(max-width: 1250px) {
+            width: 70%;
+            margin: 5% 10%;
+        }
 
         .name {
             font-size: 42px;
@@ -29,6 +36,7 @@
             text-align: left;
         }
     }
+
 }
 
 .card:nth-child(10) {
