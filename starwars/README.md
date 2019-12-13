@@ -25,14 +25,19 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+    - React is a user interface component library.  It's purpose is to easliy render UI that is scalable and reusable because everything is a component.  It allows us to write one component and reuse it with different data passed through state and props.
 
 - [ ] What does it mean to _think_ in react?
+    - _Thinking_ in React means breaking down the UI into a component hierarchy by visualizing each component and understanding how they are imported into other components and how data will be shared between them.
 
 - [ ] Describe state.
+    - Web apps are basically comprised of data (state), and the things that change that data, or state.  State is managed within the component.
 
 - [ ] Describe props.
+    - Props allows us to pass information held on state inside one component to another component.
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+    - Side effects are anything that affect something outside the scope of the function being executed like API calls or updating the DOM.  You can sync side effects in a React component using the effect hook.
 
 ## Project Set Up
 
