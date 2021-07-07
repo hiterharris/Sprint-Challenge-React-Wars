@@ -1,0 +1,50 @@
+.app {
+  text-align: center;
+}
+.app .header {
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+  font-size: 64px;
+  margin: 2%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container .card {
+  width: 25%;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 2%;
+  background: rgba(216, 216, 216, 0.75);
+}
+@media (max-width: 1250px) {
+  .card-container .card {
+    width: 40%;
+  }
+}
+@media (max-width: 1250px) {
+  .card-container .card {
+    width: 70%;
+    margin: 5% 10%;
+  }
+}
+.card-container .card .name {
+  font-size: 42px;
+}
+.card-container .card .text {
+  font-size: 32px;
+  text-align: left;
+}
+
+.card:nth-child(10) {
+  width: 20vw;
+}
+
+.form-group {
+  width: 20%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=App.css.map */
